@@ -2,8 +2,8 @@
 # MmD
 set -euo pipefail
 
-REPO="Sir-MmD/vpn-ui"
-ASSET="vpn-ui-amd64"
+REPO="ZataWay/zata-ui"
+ASSET="zata-ui-amd64"
 DEST_DIR="/opt/vpn-ui"
 DEST="$DEST_DIR/$ASSET"
 # The DEFAULT systemd unit name, and ONLY a fallback. The operator can rename the
