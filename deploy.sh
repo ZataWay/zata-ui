@@ -570,6 +570,6 @@ fi
 if [[ -x "$MENU" ]]; then
     act "manage:  ${TEAL}zata-ui${R}  (update, login, start/stop, Xray, SSL)"
 fi
-act "status:  ${TEAL}systemctl status ${unit}${R}"
-act "logs:    ${TEAL}journalctl -u ${unit} -f${R}"
+act "status:  ${TEAL}systemctl status zata-ui"
+act "logs:    ${TEAL}journalctl -u zata-ui -f${R}"
 hr
