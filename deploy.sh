@@ -568,7 +568,7 @@ else
     fi
 fi
 if [[ -x "$MENU" ]]; then
-    act "manage:  ${TEAL}vpn-ui${R}  (update, login, start/stop, Xray, SSL)"
+    act "manage:  ${TEAL}zata-ui${R}  (update, login, start/stop, Xray, SSL)"
 fi
 act "status:  ${TEAL}systemctl status ${unit}${R}"
 act "logs:    ${TEAL}journalctl -u ${unit} -f${R}"
