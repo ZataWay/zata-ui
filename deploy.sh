@@ -393,6 +393,13 @@ msg "Installing the ${MENU} management menu"
 export VPNUI_BIN="$DEST"
 if "$DEST" install-menu >/dev/null 2>&1 && [[ -r "$MENU" ]]; then
     ok "management menu -> ${MENU}  (run: ${TEAL}vpn-ui${R})"
+    # Fix the legacy binary name expected by the management menu
+ln -sfn "$DEST" "$DEST_DIR/vpn-ui-amd64"
+
+# Add the new ZATA-UI command
+ln -sfn "$MENU" /usr/bin/zata-ui
+
+ok "ZATA-UI and VPN-UI commands configured"
     # Bring in obtain_letsencrypt_cert: the single implementation, shared rather
     # than copied. vpn-ui.sh does nothing at top level when sourced (its menu is
     # behind a sourced/executed guard), so this only defines functions.
