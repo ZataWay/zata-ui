@@ -69,7 +69,7 @@ Este proyecto es una versión mejorada del panel **[3X-UI](https://github.com/MH
 ## Instalación del panel
 
 ```bash
-curl -Ls https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/deploy.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/ZataWay/zata-ui/main/deploy.sh | sudo bash
 ```
 
 ## Desinstalación del panel
