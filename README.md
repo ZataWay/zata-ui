@@ -6,7 +6,7 @@
 
 This project is an enhanced version of the **[3X-UI](https://github.com/MHSanaei/3x-ui)** panel (version 2.9.3). The goal of this project is to add various protocols and set it up as an all-in-one panel with support for **Xray-core** features.
 
-![Overview](https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/overview.png)
+![Overview](https://github.com/ZataWay/zata-ui/blob/main/media/ZATAui_Owerview.png)
 
 ## New Protocols
 
